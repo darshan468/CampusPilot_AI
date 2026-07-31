@@ -1,0 +1,38 @@
+/* Main Background */
+.stApp{
+    background:#0F172A;
+    color:white;
+}
+
+/* Sidebar */
+[data-testid="stSidebar"]{
+    background:#111827;
+    border-right:1px solid #374151;
+}
+
+/* Cards */
+[data-testid="stMetric"]{
+    background:#1F2937;
+    border-radius:12px;
+    padding:15px;
+    border:1px solid #374151;
+}
+
+/* Buttons */
+.stButton>button{
+    background:#22C55E;
+    color:white;
+    border:none;
+    border-radius:10px;
+}
+
+.stButton>button:hover{
+    background:#16A34A;
+}
+
+/* Inputs */
+.stTextInput input{
+    background:#1F2937;
+    color:white;
+    border-radius:8px;
+}

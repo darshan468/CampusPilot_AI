@@ -1,0 +1,36 @@
+/* Main Background */
+.stApp{
+    background-color:#F8FAFC;
+    color:#111827;
+}
+
+/* Sidebar */
+[data-testid="stSidebar"]{
+    background:#FFFFFF;
+    border-right:1px solid #E5E7EB;
+}
+
+/* Cards */
+[data-testid="stMetric"]{
+    background:white;
+    border-radius:12px;
+    padding:15px;
+    border:1px solid #E5E7EB;
+}
+
+/* Buttons */
+.stButton>button{
+    background:#2563EB;
+    color:white;
+    border-radius:10px;
+    border:none;
+}
+
+.stButton>button:hover{
+    background:#1D4ED8;
+}
+
+/* Inputs */
+.stTextInput input{
+    border-radius:8px;
+}
